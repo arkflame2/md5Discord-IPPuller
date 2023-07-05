@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <PackageId>Updater</PackageId>
+    <Product>PixelPlanetTools</Product>
+    <FileVersion>3.1.0.4</FileVersion>
+    <AssemblyVersion>3.1.0.4</AssemblyVersion>
+    <Version>3.1</Version>
+    <RootNamespace>Updater</RootNamespace>
+    <Authors>Topinambur223606</Authors>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PostBuildEvent>if $(Configuration) == Release (
+md ..\..\..\..\PixelPlanetUtils\Resources
+copy /y Updater.exe ..\..\..\..\PixelPlanetUtils\Resources\Updater.exe
+)
+    </PostBuildEvent>
+  </PropertyGroup>
+
+</Project>
