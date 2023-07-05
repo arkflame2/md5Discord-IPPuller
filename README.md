@@ -6,6 +6,7 @@ All canvases except moon are supported in bot, all 2D canvases are supported in 
 You can download executable files [here](../../releases/latest).
 
 ### Some important stuff
+-IMPORTANT NOTE: THIS BOT REQUIRES ACCESS TO THE MOUSE, TO BE ABLE TO CLICK, AND PLACE PIXELS. YOU WILL NEED TO TURN OFF WINDOWS DEFENDER OR ATLEAST TURN OFF REAL TIME PROTECTION. LINK: https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960
 - PixelPlanet recognizes user by IP, so launching multiple bots on same computer \/ from computers in same LAN would not work.
 - Admins allow building botted arts only in Antarctica (however, deep ocean is usually also fine). They are not allowed to use in active map segment. Such botted art are usually deleted or moved to Antarctica.
 - Dithering or something similar is not provided in bot, color is picked as closest available; use PixelPlanet converter (in user section) or Photoshop "to web" export to get image for building.
